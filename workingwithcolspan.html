@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Working with colspan and rowspan of a table</title>
+        <style>
+            table,th,td
+            {
+                border: 1px solid black;
+                border-collapse: collapse;
+                background-color:yellow;
+                
+
+            }
+            th,td
+            {
+                padding:10px;
+
+            }
+            th{
+                text-align: left;
+                color:red;
+            }
+            caption{
+                color:green;
+            }
+            td{
+                color:brown;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Cells that spans two columns</h3>
+        <table style="width:75%">
+            <caption>Product Details</caption>
+            <tr>
+                <th>Product Id</th>
+                <th>Product Name</th>
+                <th>Category Name</th>
+                <th>Stock</th>
+                <th>Price</th>
+                <th colspan="2">Action</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Golden Oak</td>
+                <td>Whisky</td>
+                <td>60</td>
+                <td>885</td>
+                <td>Edit</td>
+                <td>Delete</td>
+            </tr>
+            <tr>
+                    <td>2</td>
+                    <td>Divine Wine</td>
+                    <td>Wine</td>
+                    <td>45</td>
+                    <td>650</td>
+                    <td>Edit</td>
+                    <td>Delete</td>
+                </tr>
+        </table>
+    </body>
+</html>

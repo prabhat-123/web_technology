@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Add Operation Using Javascript</title>
+
+    </head>
+    <script>
+        function add()
+        {
+            var n1 = document.getElementById("txtnum1");
+            var n2 = document.getElementById("txtnum2");
+            var result = document.getElementById("txtresult");
+            result.value = Number(n1.value) + Number(n2.value);
+
+        }
+    
+    </script>
+    <body>
+        <form>
+            <label>Number1:</label>
+            <input type="text" id="txtnum1" placeholder="Input first number">
+            <br>
+            <label>Number2:</label>
+            <input type="text" id="txtnum2" placeholder="Input second number">
+            <br>
+            <label>Result:</label>
+            <input type="text" disabled id="txtresult">
+            <br>   
+            <input type="button" id="btnadd" value="Add" onclick="add()">
+
+        </form>
+       
+    </body>
+</html>

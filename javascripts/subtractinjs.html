@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Subtraction in Javascripts</title>
+        <script>
+            function diff()
+            {
+                var v1 = document.getElementById("txtnum1");
+                var v2 = document.getElementById("txtnum2");
+                var res = document.getElementById("txtdisplay");
+                res.value = Number(v1.value) - Number(v2.value);
+            }
+        
+        </script>
+    </head>
+    <body>
+        <form>
+            <label>Num1:</label>
+            <input type="text" id="txtnum1" placeholder="Input the first number">
+            <br>
+            <label>Num2:</label>
+            <input type="text" id= "txtnum2" placeholder="Input the second number">
+            <br>
+            <input type="text" disabled id="txtdisplay">
+            <br>
+            <input type="button" id="btnsub" value="Sub" onclick="diff()">
+        </form>
+    </body>
+</html>

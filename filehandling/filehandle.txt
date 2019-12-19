@@ -1,0 +1,5 @@
+Hey ... I am working on file handling problem using server side language called "Php".
+Flie handling means doing the operations in the file using programming language.
+You must be able to read a the whole file or read a single character or read a line of the whole file.
+After reading you must be able to close the file.
+You also must be able to make some changes in the file using write operations.
